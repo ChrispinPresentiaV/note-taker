@@ -1,13 +1,106 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: rgb(0, 0, 0);
+}
+.navbar {
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  max-width: 90em;
+  margin: 0 auto;
+  border-bottom: 3px dotted #a6a9d2;
+}
+.navbar h1 {
+  color: #6692d4;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 2em;
+  text-decoration: none;
+  padding: 0.5em;
+}
+.navbar a:hover {
+  color: #5981bb;
+}
+.content {
+  max-width: 90em;
+  margin: 40px auto;
+  padding: 20px;
+  /* background-color: #d2e9ff; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* notes previews / list */
+.notes-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.notes-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  background-color: #d2e9ff;
+
+}
+.notes-preview h2 {
+  font-size: 20px;
+  color: #6692d4;
+  margin-bottom: 8px;
+}
+.notes-preview a{
+  text-decoration: none;
+}
+
+/* notes details page */
+.notes-details h2 {
+  font-size: 20px;
+  color: #6692d4;
+  margin-bottom: 10px;
+}
+.notes-details div {
+  margin: 20px 0;
+}
+.notes-details button {
+  background: #6692d4;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new notes form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #6692d4;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #6692d4;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }

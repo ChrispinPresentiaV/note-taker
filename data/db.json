@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "title": "My note for today",
+      "body": "have fun\nstudy\nwork\neat\nsleep\n",
+      "date": "2022-11-20",
+      "id": 1
+    },
+    {
+      "title": "What is Lorem Ipsum",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "date": "2022-11-19",
+      "id": 2
+    },
+    {
+      "title": "Docker",
+      "body": "Install docker, docker-compose and colima\nbrew install docker (Install docker Client)\ndocker version (Verify docker is installed)\nbrew install docker-compose (Install docker-compose)\ndocker-compose version (Verify docker-compose is installed)\nbrew install colima (Install colima for docker engine)\ncolima version (Verify Colima is installed)\ncolima start (Start Colima)\n\ndocker pull redis:6.2.7-bullseye\ndocker pull redis:latest\n\ndocker pull nginx\ndocker ps\ndocker images\ndocker run nginx\ndocker ps\ndocker ps -a\ndocker rm 521 dd5\n",
+      "date": "2023-01-09",
+      "id": 3
+    }
+  ]
+}
